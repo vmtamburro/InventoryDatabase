@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1549552522 source:e:\assignment 1\main.cpp
+	<iostream>
+	<fstream>
+	"prototype.h"
+
+1549552476 source:e:\assignment 1\addtofile.cpp
+	<iostream>
+	<fstream>
+
+1549548130 e:\assignment 1\prototype.h
+
