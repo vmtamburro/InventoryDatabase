@@ -24,35 +24,17 @@ to perform the following tasks:
 using namespace std;
 
 
+bool mainMenu();
 
 int main()
 {
-char choice;
-cout  << "Please select an option from below."<<endl;
-cout  << "A. Add to inventory"<<endl
-      << "B. Display record"<<endl
-      << "C. Total inventories"<<endl
-      << "E. Change Record\n\n"<<endl;
+    bool ret = true;
+    while(ret == true)
+    {
+        ret = mainMenu();
 
-cout<<"Choice: ";
-cin>>choice;
-
-switch(choice)
-{
-    case 'A' :
-        addToFile();
-        break;
-    case 'B':
-       searchFile();
-        break;
-    case 'C':
-        totalInventories();
-        break;
-    case 'E':
-        changeRecord();
-        break;
-
-}
-
+        if (ret == true)
+            system("pause");
+    }
     return 0;
 }

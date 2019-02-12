@@ -6,4 +6,6 @@ void searchFile();
 void totalInventories();
 void changeRecord();
 
+
+
 #endif // PROTOTYPE_H_INCLUDED
